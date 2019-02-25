@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LandlmaterialModule } from './landlmaterial.module';
+import { LandlcoreModule } from './landlcore/landlcore.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +12,9 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LandlmaterialModule,
+    LandlcoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
